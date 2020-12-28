@@ -17,8 +17,8 @@ constructor(name: string, type: string, launchDate: string, orbitType: string, o
     };
 
     shouldShowWarning(){
-        if (this.type='Space Debris'){    
-        return changeColor = true;
+        if (this.type==='Space Debris'){       
+        return true;
         }
         else {
             return false;

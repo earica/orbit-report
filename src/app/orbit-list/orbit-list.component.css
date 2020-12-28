@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: #ffee00;
+    background-color: #fff383;
 }
 
 table {
@@ -19,6 +19,16 @@ table {
 .header-row {
     background: #34495E;
     color: #fff
+}
+
+.odd-row{
+    background: red;
+    color: white;
+}
+
+.even-row{
+    background: green;
+    color: white;
 }
 
 th, td {
